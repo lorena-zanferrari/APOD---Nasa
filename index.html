@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>NASA APOD API</title>
+</head>
+
+<body>
+    <h1 class="heading">Astronomic Picture of the Day</h1>
+    <div class="wrapper">
+        <div class="controls">
+            <form action="">
+                <p>
+                    <label for="picture-date">Select the day: </label>
+                    <input type="date" id="date" class="date" pattern="[0-9]{8}">
+                </p>
+                <p>
+                    <button class="submit">Start</button>
+                </p>
+            </form>
+            <img class="NASA_data">
+            <p class="NASA_explanation"></p>
+        </div>
+    </div>
+
+    <footer id="foot">
+       Developed by: <a class="link" href="https://www.linkedin.com/in/lorena-zanferrari-7a60a9126/">Lorena Zanferrari</a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
